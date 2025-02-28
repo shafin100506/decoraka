@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deco Raka - Jasa Dekorasi dan Tenda Premium</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Deco Raka</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#packages">Paket</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Galeri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content fade-in">
+            <h1 style="color: #ffffff;">Dekorasi Impian untuk Momen Spesial Anda</h1>
+            <p style="color: #ffffff;">Kami hadirkan sentuhan elegan dan kemewahan untuk setiap acara penting dalam hidup Anda</p>
+            <a href="#packages" class="btn hero-btn">Lihat Paket Kami</a>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <div class="section-title">
+                <h2>Paket Dekorasi</h2>
+            </div>
+            <div class="row">
+                <!-- Package 1 -->
+                <div class="col-md-4">
+                    <div class="card package-card">
+                        <img src="img/tenda 1.jpg" class="card-img-top package-img" alt="Paket Klasik">
+                        <div class="card-body text-center">
+                            <h3 class="package-title">Paket Klasik</h3>
+                            <p class="card-text">Dekorasi elegan dengan sentuhan klasik yang abadi untuk acara spesial Anda.</p>
+                            <button class="btn view-btn" data-bs-toggle="modal" data-bs-target="#packageModal1">Lihat</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Package 2 -->
+                <div class="col-md-4">
+                    <div class="card package-card">
+                        <img src="img/tenda 3.jpg" class="card-img-top package-img" alt="Paket Premium">
+                        <div class="card-body text-center">
+                            <h3 class="package-title" style="color: #000000;">Paket Premium</h3>
+                            <p class="card-text" style="color: #343a40;">Tampilan mewah dengan detail premium untuk momen tak terlupakan.</p>
+                            <button class="btn view-btn" data-bs-toggle="modal" data-bs-target="#packageModal2">Lihat</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Package 3 -->
+                <div class="col-md-4">
+                    <div class="card package-card">
+                        <img src="img/tenda 5.jpg" class="card-img-top package-img" alt="Paket Royal">
+                        <div class="card-body text-center">
+                            <h3 class="package-title">Paket Royal</h3>
+                            <p class="card-text">Pengalaman dekorasi ultimate dengan kemewahan tingkat tinggi.</p>
+                            <button class="btn view-btn" data-bs-toggle="modal" data-bs-target="#packageModal3">Lihat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Kami Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Tentang Kami</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="img/tk.jpeg" class="img-fluid" alt="Tentang Kami">
+                </div>
+                <div class="col-lg-6">
+                    <h3>Perjalanan Kami</h3>
+                    <ul class="timeline">
+                        <li>
+                            <i class='bx bx-calendar'></i>
+                            <span>2010</span>
+                            <p>Memulai perjalanan kami dengan semangat dan dedikasi untuk memberikan dekorasi terbaik.</p>
+                        </li>
+                        <li>
+                            <i class='bx bx-award'></i>
+                            <span>2015</span>
+                            <p>Menerima penghargaan sebagai penyedia jasa dekorasi terbaik di Jakarta.</p>
+                        </li>
+                        <li>
+                            <i class='bx bx-expand'></i>
+                            <span>2018</span>
+                            <p>Ekspansi layanan kami ke seluruh Indonesia dengan tim profesional dan berpengalaman.</p>
+                        </li>
+                        <li>
+                            <i class='bx bx-star'></i>
+                            <span>2022</span>
+                            <p>Menjadi pilihan utama untuk dekorasi acara mewah dan elegan di berbagai kota besar.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeri Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Galeri</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/tenda 1.jpg" class="card-img-top" alt="Galeri Foto 1">
+                        <div class="actions">
+                            <button class="btn view-btn" data-bs-toggle="modal" data-bs-target="#galleryModal1">Lihat</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/tenda 2.jpg" class="card-img-top" alt="Galeri Foto 2">
+                        <div class="actions">
+                            <button class="btn view-btn" data-bs-toggle="modal" data-bs-target="#galleryModal2">Lihat</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/tenda 3.jpg" class="card-img-top" alt="Galeri Foto 3">
+                        <div class="actions">
+                            <button class="btn view-btn" data-bs-toggle="modal" data-bs-target="#galleryModal3">Lihat</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/tenda 4.jpg" class="card-img-top" alt="Galeri Foto 4">
+                        <div class="actions">
+                            <button class="btn view-btn" data-bs-toggle="modal" data-bs-target="#galleryModal4">Lihat</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/tenda 5.jpg" class="card-img-top" alt="Galeri Foto 5">
+                        <div class="actions">
+                            <button class="btn view-btn" data-bs-toggle="modal" data-bs-target="#galleryModal5">Lihat</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/tenda 6.jpg" class="card-img-top" alt="Galeri Foto 6">
+                        <div class="actions">
+                            <button class="btn view-btn" data-bs-toggle="modal" data-bs-target="#galleryModal6">Lihat</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Package Modals -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="packageModal1" tabindex="-1" aria-labelledby="packageModalLabel1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="packageModalLabel1">Paket Klasik</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/tenda 1.jpg" class="modal-img" alt="Paket Klasik">
+                    <h4>Fasilitas:</h4>
+                    <ul class="facility-list">
+                        <li><i class="fas fa-check-circle"></i> Dekorasi pelaminan standard (4x3 meter)</li>
+                        <li><i class="fas fa-check-circle"></i> 1 set kursi pengantin</li>
+                        <li><i class="fas fa-check-circle"></i> Tenda 5x4 meter (2 unit)</li>
+                        <li><i class="fas fa-check-circle"></i> Lighting standard</li>
+                        <li><i class="fas fa-check-circle"></i> Bunga segar asli</li>
+                        <li><i class="fas fa-check-circle"></i> 50 kursi tamu</li>
+                    </ul>
+                    <div class="modal-price">
+                        Rp 15.000.000
+                    </div>
+                    <button class="btn book-btn">Pesan Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="packageModal2" tabindex="-1" aria-labelledby="packageModalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="packageModalLabel2">Paket Premium</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/tenda 3.jpg" class="modal-img" alt="Paket Premium">
+                    <h4>Fasilitas:</h4>
+                    <ul class="facility-list">
+                        <li><i class="fas fa-check-circle"></i> Dekorasi pelaminan mewah (6x4 meter)</li>
+                        <li><i class="fas fa-check-circle"></i> 1 set kursi pengantin premium</li>
+                        <li><i class="fas fa-check-circle"></i> Tenda VIP 6x6 meter (3 unit)</li>
+                        <li><i class="fas fa-check-circle"></i> Lighting premium dengan lampu sorot</li>
+                        <li><i class="fas fa-check-circle"></i> Bunga segar asli impor</li>
+                        <li><i class="fas fa-check-circle"></i> 100 kursi tamu dengan cover</li>
+                        <li><i class="fas fa-check-circle"></i> Karpet merah sepanjang 10 meter</li>
+                        <li><i class="fas fa-check-circle"></i> Kotak angpau 2 buah</li>
+                    </ul>
+                    <div class="modal-price">
+                        Rp 25.000.000
+                    </div>
+                    <button class="btn book-btn">Pesan Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="packageModal3" tabindex="-1" aria-labelledby="packageModalLabel3" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="packageModalLabel3">Paket Royal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/tenda 5.jpg" class="modal-img" alt="Paket Royal">
+                    <h4>Fasilitas:</h4>
+                    <ul class="facility-list">
+                        <li><i class="fas fa-check-circle"></i> Dekorasi pelaminan super mewah (8x5 meter)</li>
+                        <li><i class="fas fa-check-circle"></i> 1 set kursi pengantin desainer</li>
+                        <li><i class="fas fa-check-circle"></i> Tenda VIP 8x8 meter (4 unit)</li>
+                        <li><i class="fas fa-check-circle"></i> Full lighting system dengan efek dramatis</li>
+                        <li><i class="fas fa-check-circle"></i> Bunga segar premium dengan rangkaian eksklusif</li>
+                        <li><i class="fas fa-check-circle"></i> 200 kursi tamu dengan cover premium</li>
+                        <li><i class="fas fa-check-circle"></i> Karpet merah sepanjang 15 meter</li>
+                        <li><i class="fas fa-check-circle"></i> Kotak angpau 4 buah dengan design khusus</li>
+                        <li><i class="fas fa-check-circle"></i> Smoke machine dan bubble effects</li>
+                        <li><i class="fas fa-check-circle"></i> Photobooth dengan props lengkap</li>
+                        <li><i class="fas fa-check-circle"></i> Welcome gate dengan design eksklusif</li>
+                    </ul>
+                    <div class="modal-price">
+                        Rp 45.000.000
+                    </div>
+                    <button class="btn book-btn">Pesan Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Gallery Modals -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="galleryModal1" tabindex="-1" aria-labelledby="galleryModalLabel1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galleryModalLabel1">Galeri Foto 1</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/tenda 1.jpg" class="modal-img" alt="Galeri Foto 1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="galleryModal2" tabindex="-1" aria-labelledby="galleryModalLabel2" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galleryModalLabel2" style="color: #ffffff;">Galeri Foto 2</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/tenda 2.jpg" class="modal-img" alt="Galeri Foto 2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="galleryModal3" tabindex="-1" aria-labelledby="galleryModalLabel3" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galleryModalLabel3">Galeri Foto 3</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/tenda 3.jpg" class="modal-img" alt="Galeri Foto 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="galleryModal4" tabindex="-1" aria-labelledby="galleryModalLabel4" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galleryModalLabel4">Galeri Foto 4</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/tenda 4.jpg" class="modal-img" alt="Galeri Foto 4">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="galleryModal5" tabindex="-1" aria-labelledby="galleryModalLabel5" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galleryModalLabel5">Galeri Foto 5</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/tenda 5.jpg" class="modal-img" alt="Galeri Foto 5">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="modal fade" id="galleryModal6" tabindex="-1" aria-labelledby="galleryModalLabel6" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galleryModalLabel6">Galeri Foto 6</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/tenda 6.jpg" class="modal-img" alt="Galeri Foto 6">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <span class="footer-logo">Deco Raka</span>
+                    <div class="footer-info">
+                        <p>Menyediakan jasa dekorasi dan tenda premium untuk berbagai acara spesial. Kami hadir untuk mewujudkan dekorasi impian Anda.</p>
+                    </div>
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4" id="contact">
+                    <h4 class="footer-title">Kontak Kami</h4>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Jl. Dekorasi Indah No. 123, Jakarta Selatan</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+62 812 3456 7890</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>info@decoraka.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Senin - Sabtu: 09:00 - 17:00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Deco Raka. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+   <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
